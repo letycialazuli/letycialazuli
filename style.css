@@ -1057,3 +1057,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 .btn-5b:hover:before {
 	left: 0;
 }
+
+.preco-destaque {
+  font-size: 2.2rem; /* você pode ajustar esse valor conforme quiser */
+  color: #ffffff;     /* um dourado bonito, pode trocar se quiser */
+  font-weight: bold;
+}
