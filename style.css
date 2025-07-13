@@ -1063,39 +1063,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
   color: #ffffff;     /* um dourado bonito, pode trocar se quiser */
   font-weight: bold;
 }
-
-@media only screen and (max-width: 600px) {
-  #hero h1 {
-    font-size: 32px;
-  }
-
-  .btn {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .innercontent {
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  .soc li a {
-    width: 40px;
-    height: 40px;
-    line-height: 35px;
-    font-size: 18px;
-  }
-
-  #logo img {
-    width: 40px;
-    height: 40px;
-  }
-
-  h5 {
-    font-size: 18px !important;
-  }
-
-  p {
-    font-size: 16px !important;
-  }
-}
