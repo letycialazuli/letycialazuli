@@ -1076,22 +1076,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
   color: #ffffff;     /* um dourado bonito, pode trocar se quiser */
   font-weight: bold;
 }
-
-/* CORREÇÕES PARA IPHONE */
-#testim {
-  position: relative !important;
-  top: auto !important;
-  margin: 40px 0;
-}
-
-#testim-content > div {
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-}
-
-#testim-content > div.active {
-  opacity: 1;
-  position: relative;
-}
