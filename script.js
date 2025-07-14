@@ -201,3 +201,8 @@ window.onload = function() {
       
     })
 }
+
+// Fix para header no iOS (segunda instância)
+setTimeout(function() {
+  window.scrollTo(0, 0);
+}, 200);
