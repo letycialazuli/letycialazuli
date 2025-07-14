@@ -1103,6 +1103,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 }
 
 #hero .intro {
-  min-height: 70vh; /* Garante altura mínima */
+  min-height: 100vh; /* Garante altura mínima */
   padding-top: 20px; /* Espaço extra se necessário */
 }
