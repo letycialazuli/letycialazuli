@@ -10,7 +10,9 @@ body{
   background: #000 url("bg.jpg") center center fixed;
   background-size: cover;
   padding-top: 100px;
-  
+  height: 100%;
+  overflow-x: hidden; /* Evita bugs de rolagem horizontal */
+  -webkit-overflow-scrolling: touch; /* Scroll suave no iOS */
 }
 #main-content{
   position: relative;
@@ -24,8 +26,12 @@ position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  -webkit-backface-visibility: hidden; /* Corrige renderização no iOS */
-  -webkit-transform: translateZ(0); /* Ativa aceleração de hardware */
+ /* Fix Safari iOS */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  /* Evita "sacudidas" no scroll */
+  backdrop-filter: blur(0px); /* Truque para forçar GPU */
 }
 
 #logo img{
