@@ -9,7 +9,7 @@ html, body{
 body{
   background: #000 url("bg.jpg") center center fixed;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 90px;
   height: 100%;
   overflow-x: hidden; /* Evita bugs de rolagem horizontal */
   -webkit-overflow-scrolling: touch; /* Scroll suave no iOS */
