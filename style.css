@@ -114,7 +114,7 @@ position: fixed;
   font-size: clamp(2rem, 8vw, 3.5rem); /* Tamanho responsivo */
   line-height: 1.3;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 150%;
   padding: 0 20px;
   text-align: center;
   word-break: keep-all;
@@ -132,7 +132,7 @@ position: fixed;
   font-weight: bold;
   font-family: 'Merienda', cursive;
   color: #bf78db;
-  margin-bot: 200px;
+  
 }
 #hero .intro{
   font-size: 20px;
