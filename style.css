@@ -1,30 +1,17 @@
-body {
-  background: #000 url("bg.jpg") center center no-repeat;
+/**font-family: 'Roboto', sans-serif;
+font-family: 'Merienda', cursive;**/
+
+
+html, body{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background: #000 url("bg.jpg") center center fixed;
   background-size: cover;
-  background-attachment: fixed; /* Funciona em desktop */
-  padding-top: 80px;
-  position: relative;
-  min-height: 100vh;
+  padding-top: 90px;
+  
 }
-
-/* Correção ESPECÍFICA para iOS */
-@media (max-width: 1024px) {
-  body {
-    background-attachment: scroll !important;
-  }
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("bg.jpg") center center/cover no-repeat;
-    z-index: -1;
-    -webkit-backface-visibility: hidden;
-  }
-}
-
 #main-content{
   position: relative;
 }
@@ -32,17 +19,6 @@ body {
   background: #000;
   padding: 20px 0;
   background-color:  rgb(0, 0, 0, 0.7);
-position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
- /* Fix Safari iOS */
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  /* Evita "sacudidas" no scroll */
-  backdrop-filter: blur(0px); /* Truque para forçar GPU */
 }
 
 #logo img{
@@ -110,24 +86,10 @@ position: fixed;
   font-size: 30px;
   font-weight: bold;
 }
-#hero h1 {
-  font-size: 3.5rem; /* Tamanho perfeito para desktop */
-  line-height: 1.2;
-  margin: 0 auto;
-  max-width: 80%;
-  text-align: center;
-  font-family: 'Merienda', cursive;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Melhora legibilidade */
+#hero h1{
+  font-size: 60px;
+  
 }
-
-/* Ajuste apenas para mobile */
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 2.2rem; /* Tamanho ideal para iPhone */
-    max-width: 90%;
-  }
-}
-
 #hero h1 span{
   font-weight: bold;
   font-family: 'Merienda', cursive;
@@ -1100,9 +1062,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
   font-size: 2.2rem; /* você pode ajustar esse valor conforme quiser */
   color: #ffffff;     /* um dourado bonito, pode trocar se quiser */
   font-weight: bold;
-}
-
-#hero .intro {
-  min-height: 100vh; /* Garante altura mínima */
-  padding-top: 100px; /* Espaço extra se necessário */
 }
