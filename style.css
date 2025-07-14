@@ -2,7 +2,7 @@ body {
   background: #000 url("bg.jpg") center center no-repeat;
   background-size: cover;
   background-attachment: fixed; /* Funciona em desktop */
-  padding-top: 150px;
+  padding-top: 80px;
   position: relative;
   min-height: 100vh;
 }
