@@ -4,7 +4,7 @@ body {
   background-attachment: fixed; /* Funciona em desktop */
   padding-top: 80px;
   position: relative;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 /* Correção ESPECÍFICA para iOS */
