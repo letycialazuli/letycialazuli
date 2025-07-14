@@ -1,33 +1,27 @@
-/**font-family: 'Roboto', sans-serif;
-font-family: 'Merienda', cursive;**/
-
-
-html, body{
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-}
-body{
-  background: #000; /* Fallback */
+body {
+  background: #000 url("bg.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Funciona em desktop */
   padding-top: 90px;
   position: relative;
-  overflow-x: hidden;
+  min-height: 100vh;
 }
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("bg.jpg") center center/cover no-repeat;
-  z-index: -1;
-  -webkit-backface-visibility: hidden;
-  image-rendering: -webkit-optimize-contrast;
-}
+
+/* Correção ESPECÍFICA para iOS */
 @media (max-width: 1024px) {
-  body::before {
-    position: absolute;
+  body {
     background-attachment: scroll !important;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("bg.jpg") center center/cover no-repeat;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
   }
 }
 
