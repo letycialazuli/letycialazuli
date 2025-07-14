@@ -132,7 +132,7 @@ position: fixed;
   font-weight: bold;
   font-family: 'Merienda', cursive;
   color: #bf78db;
-  
+  margin-bot: 200px;
 }
 #hero .intro{
   font-size: 20px;
