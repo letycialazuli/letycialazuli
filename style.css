@@ -391,7 +391,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 
 .testim {
 		width: 100%;
-		position: absolute;
+		position: relative;
 		top: 290px;
 		-webkit-transform: translatey(-50%);
 		-moz-transform: translatey(-50%);
@@ -405,7 +405,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
     position: relative;
     width: 100%;
     max-width: 900px;
-    padding: 80px 10px;
+    padding: 40px 20px;
     margin: auto;
     
 }
