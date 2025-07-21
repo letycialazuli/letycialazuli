@@ -6,10 +6,24 @@ html, body{
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
-body{
-  background: #000 url("bg.jpg") center center fixed;
-  background-size: cover;
-  padding-top: 1px;
+body {
+  background-color: #000;
+  padding-top: 90px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("bg.jpg") center center / cover no-repeat;
+  z-index: -1;
+}
+
   
 }
 #main-content{
