@@ -1013,7 +1013,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 .btn-5 {
 	background: #823aa0;
 	color: #fff;
-        cursor: pointer;
 	height: 70px;
 	min-width: 260px;
 	line-height: 24px;
@@ -1044,6 +1043,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 .btn-5:before {
 	position: absolute;
 	height: 100%;
+        cursor: pointer;
 	width: 100%;
 	line-height: 2.5;
 	font-size: 180%;
