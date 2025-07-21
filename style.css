@@ -1077,3 +1077,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
   color: #ffffff;     /* um dourado bonito, pode trocar se quiser */
   font-weight: bold;
 }
+
+a{
+	cursor: pointer;
+}
