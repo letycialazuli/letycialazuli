@@ -9,7 +9,7 @@ html, body{
 body{
   background: #000 url("bg.jpg") center center fixed;
   background-size: cover;
-  padding-top: 10px;
+  padding-top: 1px;
   
 }
 #main-content{
