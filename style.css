@@ -24,8 +24,10 @@ body::before {
   z-index: -1;
 }
 
-  
+p {
+
 }
+
 #main-content{
   position: relative;
 }
@@ -42,13 +44,12 @@ body::before {
   
 
 }
+
 #logo a{
   color: #fff;
   text-decoration: none;
   display: block;
   position: relative;
-  
-  
 }
 
 
@@ -110,14 +111,12 @@ body::before {
   color: #bf78db;
   
 }
+
 #hero .intro{
   font-size: 20px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  
-  
-  
 }
 
 .title{
@@ -956,6 +955,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
     }
 }
 
+
+
 @media all and (max-width: 300px) {
 	body {
 		font-size: 14px;
@@ -1081,4 +1082,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff5722', e
 
 a{
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 3rem !important;
+    }
+
+    p  {
+        font-size: 2rem !important;
+    }
+
+    .about-letycia {
+        max-width: 100%;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav {
+        font-size: 1.6rem !important;
+    }
+
+    .innercontent h5 {
+        font-size: 34px !important;
+    }
+
+    .innersec {
+        min-height: 900px !important;
+    }
+
+    .testim {
+        top: 440px !important;
+    }
+
+    .testim .cont div h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .discoveries-list {
+        font-size: 1.2em;
+    }
 }
