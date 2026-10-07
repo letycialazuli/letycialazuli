@@ -3,9 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EU SOU: A Chave da Alma | Letycia Lazuli</title>
+  <title>EU SOU: A Chave | Letycia Lazuli</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+
+  <style>
+    /* ===== AJUSTES VISUAIS: EU SOU / CONSCIÊNCIA ===== */
+
+    #hero .intro {
+      width: 92%;
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #hero .hero-main-title {
+      margin: 0 0 12px;
+      line-height: 1.12;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, 0.72);
+    }
+
+    #hero .hero-main-title .hero-eu {
+      display: inline-block;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+    }
+
+    #hero .hero-main-title .hero-chave {
+      display: inline-block;
+      margin-left: 10px;
+      font-family: 'Merienda', cursive;
+      font-weight: 700;
+      color: #d8a7ff;
+      letter-spacing: 0;
+    }
+
+    #hero .hero-author {
+      margin: 4px 0 20px;
+      font-family: 'Merienda', cursive;
+      font-size: 30px;
+      font-weight: 700;
+      color: #cf8cff;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7);
+    }
+
+    #hero .hero-subtitle,
+    #hero .hero-pillars,
+    #hero .hero-phrase {
+      color: #ffffff;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    }
+
+    #hero .hero-subtitle {
+      margin-top: 0;
+      font-weight: 700;
+    }
+
+    #hero .hero-pillars {
+      margin-top: 18px;
+      font-weight: 600;
+    }
+
+    #hero .hero-phrase {
+      margin: 22px auto 0;
+      max-width: 720px;
+      font-weight: 500;
+    }
+
+    #consciencia .container {
+      padding-top: 18px;
+      padding-bottom: 38px;
+    }
+
+    #consciencia .innercontent {
+      max-width: 930px;
+      margin: 28px auto 0;
+      padding: 34px 42px;
+      border-radius: 18px;
+      background: rgba(8, 7, 27, 0.58);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+    }
+
+    #consciencia .innercontent h5 {
+      color: #e4c4ff !important;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+      line-height: 1.4;
+    }
+
+    #consciencia .innercontent p {
+      color: rgba(255, 255, 255, 0.94) !important;
+      text-align: center;
+      line-height: 1.75;
+      margin-bottom: 16px;
+      text-shadow: 0 1px 7px rgba(0, 0, 0, 0.45);
+    }
+
+    #consciencia .innercontent strong {
+      color: #ffffff;
+    }
+
+    #consciencia .consciencia-final {
+      margin-top: 26px;
+      font-size: 20px;
+      color: #ead7ff !important;
+    }
+
+    @media (max-width: 768px) {
+      #hero .hero-main-title .hero-eu,
+      #hero .hero-main-title .hero-chave {
+        display: block;
+        margin-left: 0;
+      }
+
+      #hero .hero-author {
+        font-size: 24px;
+        margin-top: 10px;
+      }
+
+      #consciencia .innercontent {
+        padding: 26px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  </style>
 
 </head>
 <body>
@@ -31,10 +157,15 @@
   
   <section id="hero">
     <div class="intro">
-      <h1>EU SOU: A Chave<span>  Por Letycia Lazuli</span></h1>
-      <p>Estudo Numerológico Cabalístico</p>
-      <p>Autoconhecimento • Consciência • Transformação</p>
-      <p>A chave que você procura fora pode começar dentro de você.</p>
+      <h1 class="hero-main-title">
+        <span class="hero-eu">EU SOU:</span>
+        <span class="hero-chave">A Chave</span>
+      </h1>
+
+      <p class="hero-author">Por Letycia Lazuli</p>
+      <p class="hero-subtitle">Estudo Numerológico Cabalístico</p>
+      <p class="hero-pillars">Autoconhecimento • Consciência • Transformação</p>
+      <p class="hero-phrase">A chave que você procura fora pode começar dentro de você.</p>
     </div>
   </section><!--// end #hero -->
 
@@ -188,7 +319,7 @@
 
         <p>Porque quando você enxerga um padrão, pode começar a escolher diferente.</p>
 
-        <p style="text-align: center;"><strong>O mapa mostra possibilidades.<br>Você escreve a história.</strong></p>
+        <p class="consciencia-final"><strong>O mapa mostra possibilidades.<br>Você escreve a história.</strong></p>
       </div>
     </div><!--// end .container -->
   </section><!--// end #consciencia -->
