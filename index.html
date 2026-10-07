@@ -130,7 +130,58 @@
         margin-left: 10px;
         margin-right: 10px;
       }
-    }
+    }/* ===== QUEM É LETYCIA LAZULI ===== */
+
+#about .row {
+  display: block;
+}
+
+#about .about-photo {
+  float: left;
+  width: 38%;
+  max-width: 430px;
+  margin: 0 45px 25px 0;
+  padding: 0;
+}
+
+#about .about-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#about .about-letycia {
+  width: auto;
+  max-width: none;
+  padding: 0;
+}
+
+#about .about-letycia .innercontent {
+  width: auto;
+  max-width: none;
+}
+
+#about .row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Celular */
+@media (max-width: 768px) {
+
+  #about .about-photo {
+    float: none;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto 30px;
+  }
+
+  #about .about-letycia {
+    width: 100%;
+  }
+
+}
   </style>
 
 </head>
