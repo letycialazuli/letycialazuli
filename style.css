@@ -1126,3 +1126,393 @@ a{
         font-size: 1.2em;
     }
 }
+
+/* =========================================================
+   RESPONSIVIDADE FINAL — CELULAR / TABLET
+   Mantém o layout desktop inalterado acima de 1024px.
+   ========================================================= */
+
+@media screen and (max-width: 1024px) {
+  html,
+  body {
+    height: auto !important;
+    min-height: 100%;
+  }
+
+  #main-content {
+    height: auto !important;
+    min-height: 100%;
+  }
+
+  .innersec {
+    min-height: auto !important;
+  }
+
+  p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  .title {
+    font-size: 38px !important;
+  }
+
+  .innercontent h5 {
+    font-size: 26px !important;
+  }
+
+  .discoveries-list {
+    font-size: 18px !important;
+  }
+
+  .testim .cont div h2 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #header {
+    padding: 16px 0 !important;
+  }
+
+  #header .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #logo {
+    float: none !important;
+    width: 54px !important;
+    height: 54px !important;
+    margin: 0 auto 12px !important;
+  }
+
+  #logo img {
+    float: none !important;
+    width: 54px !important;
+    height: 54px !important;
+    display: block;
+  }
+
+  #nav {
+    float: none !important;
+    width: 100%;
+    padding-top: 0 !important;
+    font-size: 15px !important;
+    text-align: center;
+  }
+
+  #nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 10px;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  #nav ul li {
+    float: none !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  #nav ul li a {
+    display: block;
+    padding: 7px 4px;
+  }
+
+  #hero {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    min-height: calc(100vh - 150px) !important;
+    padding: 44px 18px 54px !important;
+  }
+
+  #hero .intro {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+  }
+
+  #hero .hero-main-title,
+  #hero h1 {
+    font-size: 38px !important;
+    line-height: 1.15 !important;
+    margin-bottom: 10px !important;
+  }
+
+  #hero .hero-main-title .hero-eu,
+  #hero .hero-main-title .hero-chave {
+    display: block !important;
+    margin-left: 0 !important;
+  }
+
+  #hero .hero-author {
+    font-size: 23px !important;
+    margin: 8px 0 18px !important;
+  }
+
+  #hero .hero-subtitle,
+  #hero .hero-pillars,
+  #hero .hero-phrase {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  #hero .hero-pillars {
+    margin: 16px auto 0 !important;
+    max-width: 330px;
+  }
+
+  #hero .hero-phrase {
+    margin: 18px auto 0 !important;
+    max-width: 330px !important;
+  }
+
+  .innersec {
+    min-height: auto !important;
+    padding: 36px 0 !important;
+  }
+
+  .innersec > .container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 30px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 24px !important;
+    padding: 8px 0 12px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    line-height: 1.58 !important;
+  }
+
+  .innercontent {
+    padding: 8px 0 !important;
+    font-size: 16px !important;
+  }
+
+  .innercontent h5,
+  #skills h5,
+  #natureza h5,
+  #contact h5 {
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+  }
+
+  #about .row {
+    display: block !important;
+  }
+
+  #about .about-photo {
+    float: none !important;
+    width: 100% !important;
+    max-width: 330px !important;
+    margin: 0 auto 24px !important;
+  }
+
+  #about .about-photo img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #about .about-letycia,
+  #about .about-letycia .innercontent {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #about .about-socials {
+    padding-top: 22px !important;
+  }
+
+  #about .about-socials h3 {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+  }
+
+  .soc {
+    font-size: 21px !important;
+  }
+
+  .soc li a {
+    width: 44px !important;
+    height: 44px !important;
+    line-height: 38px !important;
+  }
+
+  #skills .container,
+  #natureza .container {
+    max-width: 100%;
+  }
+
+  #skills ul.discoveries-list {
+    padding-left: 22px;
+    margin-bottom: 20px;
+  }
+
+  #skills li.discoveries-list,
+  .discoveries-list {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 5px;
+  }
+
+  #natureza .innercontent {
+    max-width: 100% !important;
+    margin: 12px auto 0 !important;
+    padding: 4px 0 12px !important;
+  }
+
+  #natureza .natureza-final {
+    margin-top: 20px !important;
+    font-size: 18px !important;
+  }
+
+  #portfolio {
+    min-height: auto !important;
+    padding-bottom: 36px !important;
+  }
+
+  #portfolio .container {
+    position: relative;
+  }
+
+  .testim {
+    position: relative !important;
+    top: auto !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    transform: none !important;
+  }
+
+  .testim .wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 24px 30px 54px !important;
+  }
+
+  .testim .cont > div {
+    padding-bottom: 54px !important;
+  }
+
+  .testim .cont div h2 {
+    font-size: 16px !important;
+    line-height: 1.35 !important;
+    margin: 10px 0 !important;
+    padding: 6px 8px;
+  }
+
+  .testim .cont div p {
+    width: 92% !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    padding: 12px 14px;
+  }
+
+  .testim .arrow {
+    font-size: 24px !important;
+    top: 48% !important;
+  }
+
+  .testim .arrow.left {
+    left: 0 !important;
+  }
+
+  .testim .arrow.right {
+    right: 0 !important;
+  }
+
+  .testim .dots {
+    bottom: 18px !important;
+  }
+
+  .testim .dots .dot {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 6px !important;
+  }
+
+  #contact .row {
+    display: block !important;
+  }
+
+  #contact .innercontent {
+    width: 100%;
+    padding: 8px 0 !important;
+  }
+
+  .preco-destaque {
+    font-size: 1.9rem !important;
+  }
+
+  .btn {
+    display: block !important;
+    width: 92% !important;
+    max-width: 330px !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 62px;
+    margin: 18px auto !important;
+    padding: 18px 14px !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+  }
+
+  .btn-5 span {
+    height: auto !important;
+  }
+
+  .btntop {
+    width: 36px !important;
+    height: 36px !important;
+    right: 14px !important;
+    bottom: 14px !important;
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #hero .hero-main-title,
+  #hero h1 {
+    font-size: 34px !important;
+  }
+
+  #hero .hero-author {
+    font-size: 21px !important;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+
+  .innersec > .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #about .about-photo {
+    max-width: 300px !important;
+  }
+}
+
