@@ -1527,3 +1527,9 @@ a{
     max-height: 100vh !important;
   }
 }
+/* ===== SOMBRA NO TEXTO: SOBRE + SUA NATUREZA ===== */
+
+#about .about-letycia,
+#natureza .innercontent {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
