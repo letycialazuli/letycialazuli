@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         options: {
           maxParticles: 100,
           minDistance: 80,
-          color: '#48F2E3',
+          color: '#ffffff',
           connectParticles: true
         }
       },
