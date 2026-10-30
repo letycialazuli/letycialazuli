@@ -11,12 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
     maxParticles: 120,
     speed: 0.5,
     minDistance: 100,
-    responsive: [
+        responsive: [
       {
         breakpoint: 768,
         options: {
-          maxParticles: 100,
-          minDistance: 80,
+          maxParticles: 30,
+          sizeVariations: 1,
+          minDistance: 60,
           color: '#ffffff',
           connectParticles: true
         }
@@ -24,15 +25,21 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         breakpoint: 425,
         options: {
-          maxParticles: 100,
-          minDistance: 50,
+          maxParticles: 20,
+          sizeVariations: 1,
+          minDistance: 45,
+          color: '#ffffff',
           connectParticles: true
         }
       },
       {
         breakpoint: 320,
         options: {
-          maxParticles: 0
+          maxParticles: 12,
+          sizeVariations: 1,
+          minDistance: 35,
+          color: '#ffffff',
+          connectParticles: true
         }
       }
     ]
